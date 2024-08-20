@@ -24,7 +24,6 @@ body{
     border-radius: 50%;
     width: 120px;
     height:120px;
-    margin-left:31%;
     animation: spin 2s linear infinite;
 }
 
@@ -38,7 +37,6 @@ body{
     font-size: 1.2em;
     color: #f1a500;
     margin-top: 20px;
-     margin-left:28%;
 }
 
 
