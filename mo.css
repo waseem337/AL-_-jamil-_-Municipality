@@ -4,7 +4,19 @@ body{
 
     transition: background-color 0.3s, color 0.3s;
 }
-
+/* تصميم شاشة التحميل */
+#loader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* تصميم دائرة التحميل (spinner) */
 .spinner {
     border: 16px solid #f3f3f3;
