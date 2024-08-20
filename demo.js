@@ -8,7 +8,11 @@ function toggleMenu() {
 
 
 
-
+    window.onload = function() {
+        // بعد تحميل الصفحة بالكامل، إخفاء شاشة التحميل وعرض المحتوى الرئيسي
+        document.getElementById('loader').style.display = 'none';
+        document.getElementById('content').style.display = 'block';
+    };
 
 
 
