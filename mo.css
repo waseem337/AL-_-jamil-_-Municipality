@@ -13,7 +13,6 @@ body{
     height: 100%;
     background-color: white;
     z-index: 1000;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -34,7 +33,7 @@ body{
 
 /* نص التحميل */
 #loader p {
-    font-size: 1.2em;
+    font-size: 1.8em;
     color: #f1a500;
     margin-top: 20px;
 }
