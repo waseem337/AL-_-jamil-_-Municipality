@@ -10,10 +10,10 @@ body{
     border: 16px solid #f3f3f3;
     border-top: 16px solid #f1a500;;
     border-radius: 50%;
-    width: 50%;
-    height:50%;
+    width: 200px;
+    height:150px;
     margin-left:20%;
-    animation: spin 10s linear infinite;
+    animation: spin 2s linear infinite;
 }
 
 @keyframes spin {
