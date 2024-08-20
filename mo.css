@@ -12,7 +12,7 @@ body{
     border-radius: 50%;
     width: 120px;
     height:120px;
-    margin-left:28%;
+    margin-left:31%;
     animation: spin 2s linear infinite;
 }
 
