@@ -27,8 +27,9 @@ body.dark-mode {
 /* زر تبديل الوضع */
 #toggleTheme {
     position: absolute;
-    top: 95px;
-    right: 1px;
+    width:35px;
+    top:32px;
+    right:40%;
     cursor: pointer;
     border-radius:15px;
     transition:1s;
@@ -36,7 +37,7 @@ body.dark-mode {
 }
 
 #toggleTheme:hover{
-    background-color: #05f32d;
+     background-color: #00ff37;
 }
 
 
@@ -130,10 +131,11 @@ body.dark-mode {
 }
 header{
     
-    margin-top:0;
+    width:90%;
+    margin-left:60px;
     background-size: cover;
     background-position:center;
-    height:100vh;
+    height:50vh;
     background-image:url(img/30.jpg);
     animation-name:photo;
     animation-delay:2s;
@@ -331,6 +333,13 @@ iframe{
     width:100%;
 }
 
+    #toggleTheme {
+    width:35px;
+    top:32px;
+    right:80px;
+    
+}
+
 
 
 }
@@ -365,6 +374,31 @@ iframe{
       width:50%;
       margin-left:25%;
     }
-
+    header{
+        width:90%;
+        height:25vh;
+        margin-left:20px;
+        margin-top:10px;
+        border-radius:10px;
+        box-shadow:0px 2px 50px 0px #000;
+    }
+    .break1{
+        margin-top:10px;
+        width:90%;
+        margin-left:20px;
+    }
+    .break2 p{
+        width:80%;
+        margin-left:30px;
+    }
+    #toggleTheme {
+        width:35px;
+        top:32px;
+        right:80px;
+        
+    }
+    .cards{
+        margin-left:27px;
+    }
  
 }
