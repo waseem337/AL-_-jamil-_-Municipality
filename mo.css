@@ -235,6 +235,9 @@ iframe{
     margin:20px 50px;
     justify-content: space-between;
 }
+.card-text{
+    text-align:right;
+}
 .card h1{
     text-align: center;
 }
