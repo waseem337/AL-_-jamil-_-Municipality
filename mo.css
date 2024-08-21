@@ -26,6 +26,7 @@ body{
     animation: spin 2s linear infinite;
 }
 
+
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
@@ -38,7 +39,10 @@ body{
     margin-top: 20px;
 }
 
-
+.spinner ,#loader p{
+    margin-left:40%;
+    margin-top:40%;
+}
 
 
 /* وضع الفاتح (افتراضي) */
