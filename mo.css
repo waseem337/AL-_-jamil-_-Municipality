@@ -348,8 +348,11 @@ textarea {
     background-color: #ffbb00;
     text-align: center;
   }
+  footer img{
+    padding:5px;
+  }
   footer img:hover{
-    width:70px;
+    width:65px;
   }
 
 @media  (max-width:890px ){
