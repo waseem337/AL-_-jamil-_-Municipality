@@ -42,7 +42,18 @@ body{
     text-align: center;
 }
 
+.watermark {
+    position: fixed; /* يجعل الشعار ثابتاً في موضعه */
+    bottom:40px;    /* المسافة من الأسفل */
+    right:250px;     /* المسافة من اليمين */
+    opacity: 0.5;    /* الشفافية */
+    z-index:-1;   /* التأكد من أن الشعار في المقدمة */
+}
 
+.watermark img {
+    width:80%;    /* عرض الشعار، يمكن تعديله حسب الحجم المطلوب */
+        /* الحفاظ على النسبة الأصلية للطول والعرض */
+}
 
 
 
@@ -178,7 +189,7 @@ header{
     box-shadow:0px 2px 50px 0px #000;
     background-size: cover;
     background-position:center;
-    height:50vh;
+    height:70vh;
     background-image:url(img/30.jpg);
     animation-name:photo;
     animation-delay:2s;
@@ -386,7 +397,18 @@ iframe{
     
 }
 
+.watermark {
+    position: fixed; /* يجعل الشعار ثابتاً في موضعه */
+    bottom:40px;    /* المسافة من الأسفل */
+    right:-50px;     /* المسافة من اليمين */
+    opacity: 0.5;    /* الشفافية */
+    z-index:-1;   /* التأكد من أن الشعار في المقدمة */
+}
 
+.watermark img {
+    width:80%;    /* عرض الشعار، يمكن تعديله حسب الحجم المطلوب */
+        /* الحفاظ على النسبة الأصلية للطول والعرض */
+}
 
 }
 @media  screen and (max-width:481px){
@@ -411,6 +433,7 @@ iframe{
     }
     iframe{
         width:80%;
+        height:40vh;
         
     }
     .news{
@@ -450,6 +473,20 @@ iframe{
     .cards{
         margin-left:27px;
     }
+
+        .watermark {
+        position: fixed; /* يجعل الشعار ثابتاً في موضعه */
+        bottom:200px;    /* المسافة من الأسفل */
+        right:35px;
+        left:-30px;     /* المسافة من اليمين */
+        opacity: 0.4;    /* الشفافية */
+        z-index:-1;   /* التأكد من أن الشعار في المقدمة */
+    }
+    
+    .watermark img {
+        width:120%;    /* عرض الشعار، يمكن تعديله حسب الحجم المطلوب */
+           /* الحفاظ على النسبة الأصلية للطول والعرض */
+    }
  
 }
 @media screen and (min-width:767px) and (max-width:1025px) {
@@ -457,4 +494,21 @@ iframe{
         margin-left:42%;
         margin-top:50%;
     }
+}
+@media screen  and (min-width:891px) and (max-width:1025px) {
+    
+    .watermark {
+        position: fixed; /* يجعل الشعار ثابتاً في موضعه */
+        bottom:40px;    /* المسافة من الأسفل */
+        right:60px;     /* المسافة من اليمين */
+        opacity: 0.5;    /* الشفافية */
+        z-index:-1;   /* التأكد من أن الشعار في المقدمة */
+    }
+    
+    .watermark img {
+        width:80%;    /* عرض الشعار، يمكن تعديله حسب الحجم المطلوب */
+            /* الحفاظ على النسبة الأصلية للطول والعرض */
+    }
+    
+
 }
